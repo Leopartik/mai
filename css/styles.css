@@ -1,0 +1,275 @@
+body {
+  background-color: #F6EBD3;
+  background-image: url('../images/maket.png');
+  color: #2c2437;
+  font-family: "Ubuntu";
+}
+
+/* P */
+p {
+  color: #8f8f8f;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 6%;
+}
+
+.title-p {
+  text-align: right;
+}
+
+.left-p {
+  padding: 0;
+  text-align: left;
+}
+
+.feature-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 2%;
+}
+
+/* Images */
+.separate1-img {
+  position: relative;
+  width: 100%;
+}
+
+.separate-img {
+  position: absolute;
+  width: 100%;
+}
+
+/* Headings */
+h1, h2 {
+  text-align: center;
+  padding: 0 15% 4%;
+  color: #2c2437;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+.big-heading {
+  font-size: 4.5rem;
+  line-height: 1.2;
+  padding: 0 0 3%;
+  text-align: right;
+}
+
+.header {
+  padding: 0 20% 3%;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 3% 15% 0;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 0 5rem;
+}
+
+.nav-link {
+  color: #ae324f;
+}
+
+.nav-link:hover {
+  color: #d95574;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.brand-mini {
+  color: #EECCAF;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(174, 50, 79, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Title */
+#title .container-fluid {
+  text-align: right;
+  padding: 3% 8% 12%;
+  height: 1250px;
+}
+
+.title-img {
+  position: absolute;
+  width: 100%;
+}
+
+.download-button {
+  margin-bottom: 3%;
+}
+
+.apple-download {
+  background-color: #ae324f;
+  margin-right: 2%;
+}
+
+.apple-download:hover {
+  background-color: #d95574;
+}
+
+.google-download {
+  background-color: #40394a;
+}
+
+.google-download:hover {
+  background-color: #665978;
+}
+
+@media (max-width: 768px) {
+  .title-text {
+    margin: 70% 0 0;
+    text-align: center;
+  }
+
+  .title-p {
+    text-align: center;
+  }
+}
+
+/* Benefits */
+#features .container-fluid {
+  background-color: #faede0;
+}
+
+.feature-box {
+  padding: 0 3%;
+}
+
+.icon {
+  color: #ae324f;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #d95574;
+}
+
+/* Offer */
+#offer .container-fluid {
+  background-color: #ffffff;
+}
+
+.offer-point {
+  padding-bottom: 10%;
+}
+
+.phone-img {
+  margin-left: 10%;
+}
+
+.mobile-col {
+  padding-top: 3%;
+}
+
+/* Plan */
+#plan .container-fluid {
+  background-color: #fafbfd;
+  padding-top: 0;
+}
+
+.num1 {
+  color: #f9d071;
+}
+
+.num2 {
+  color: #e67a7f;
+}
+
+.num3 {
+  color: #ea5750;
+}
+
+.num4 {
+  color: #634d8b;
+}
+
+.plan-box {
+  background-color: white;
+}
+
+.card {
+  margin-bottom: 3%;
+  border: 0;
+  box-shadow: 0 0 20px rgba(221, 221, 221, 1);
+}
+
+/* Customers */
+#customers .container-fluid {
+  background-image: url('../images/separate3.png');
+  padding: 50% 10% 5%;
+}
+
+.customer-img {
+  margin-top: 10%;
+}
+
+.carousel-indicators .active {
+  background-color: #ae324f;
+}
+
+.carousel-indicators li {
+  background-color: #d95574;
+  border-radius: 50%;
+}
+
+.carousel {
+  padding: 0 5% 5%;
+}
+
+/* Footer */
+#footer .container-fluid {
+  background-image: url('../images/separate4.png');
+  padding: 0 8% 3%;
+}
+
+.email-input {
+  border: 0;
+  box-shadow: 0 0 20px rgba(221, 221, 221, 1);
+  margin-bottom: 3%;
+}
+
+.lead-input {
+  padding: 0 25%;
+}
+
+#footer .navbar {
+  padding-top: 40%;
+  padding-bottom: 12%;
+}
+
+.footer-icon {
+  margin: 0 1%;
+  color: #EECCAF;
+}
+
+.footer-icon:hover {
+  margin: 0 1%;
+  color: #fef6d0;
+}
